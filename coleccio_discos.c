@@ -43,7 +43,7 @@ void introduirDisc(struct coleccio *c){
 	 c->elements++;
 	}
 	else{
-		printf("\n\t ¡¡¡ Llista Plena !!! \n");
+		printf("\n\t ¡¡¡ Coleccio Plena !!! \n");
 	}
 }
 
@@ -55,7 +55,7 @@ void llistarDisc(struct coleccio *c){
      }
 	}
 	else{
-		printf("\n\t ¡¡¡ No Hi Ha Contactes !!!\n");
+		printf("\n\t ¡¡¡ No Hi Ha Cansons !!!\n");
 	}
 }
 
@@ -90,10 +90,10 @@ void esborrarDisc(struct coleccio *c){
 	  c->d[i]=c->d[c->elements-1];
 	  c->elements--;
 	  i--;
-	  printf("\n\t ¡¡¡ Contacte Esborrat !!! \n");
+	  printf("\n\t ¡¡¡ Artista Esborrat !!! \n");
 	 }
 	else{
-		printf("\n\t ¡¡¡ Contacte No Esborrat !!! \n");
+		printf("\n\t ¡¡¡ Artista No Esborrat !!! \n");
 	}
   }
 }
